@@ -12,14 +12,12 @@
     <main>
         <section>
             <label id="name" for="">Nombre</label>
-            <input id="name-value" type="text">
+            <input id="name-value" type="text" onKeyDown="blockNumber(event)">
             <label id="age" for="">Edad</label>
-            <input id="age-value" type="number">
+            <input id="age-value" type="number" onKeyDown="block(event)">
             <button id="button-validation" type="submit">Validar</button>
             <p id="menssage"></p>
         </section>
-            
-
     </main>
     <script src="./SRC/JS/main.js"></script>
 </body>
