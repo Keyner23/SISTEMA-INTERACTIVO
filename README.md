@@ -7,15 +7,19 @@ This system is a basic example of what can be done with JS. It requests the user
 Finished
 
 :page_with_curl: ## TABLE OF CONTENTS :page_with_curl:
-SRC(html, css, js )
-LICENSE
-README 
-index.html
+
+-SRC(html, css, js )
+-LICENSE
+-README 
+-index.html
 
 :computer: ##TECHNOLOGIES :computer:
 Implement HTML, CSS, and JS
 
 :man: ##AUTHOR :man:
+
 Keyner Andres Barrios Ochoa
+
 :link: ##LINK :link:
+
 https://keyner23.github.io/SISTEMA-INTERACTIVO/
