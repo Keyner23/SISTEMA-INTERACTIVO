@@ -19,11 +19,15 @@ buttonValidation.addEventListener("click", function () {
     const ageValue = document.getElementById("age-value").value
 
     if (ageValue.length === 0) {
-        menssage.innerHTML = "vacio"
-    } else if (ageValue < 18) {
-        menssage.innerHTML = "menor"
-    } else if (ageValue >= 18) {
-        menssage.innerHTML = "mayor"
+        menssage.innerHTML = "DEBES LLENAR TODOS LOS CAMPOS"
+    }
+    else if (nameValue.trim().length === 0) {
+        menssage.innerHTML = "DEBES LLENAR TODOS LOS CAMPOS"
+    }
+    else if (ageValue < 18) {
+        menssage.innerHTML = `Hola ${nameValue}, eres menor de edad. ¡Sigue aprendiendo y disfrutando del código!`
+    }
+    else if (ageValue >= 18) {
+        menssage.innerHTML = `Hola ${nameValue}, eres mayor de edad. ¡Prepárate para grandes oportunidades en el mundo de la programación!`
     }
 })
-    

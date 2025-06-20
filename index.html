@@ -5,20 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./SRC/CSS/style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <title>VALIDADOR</title>
 </head>
 
 <body>
     <main>
+        <h1>CREAR CUENTA DE ROBLOX</h1>
+
+        <p>Por favor ingrese los valores solicitados.</p>
+
         <section>
             <label id="name" for="">Nombre</label>
             <input id="name-value" type="text" onKeyDown="blockNumber(event)">
             <label id="age" for="">Edad</label>
             <input id="age-value" type="number" onKeyDown="block(event)">
-            <button id="button-validation" type="submit">Validar</button>
-            <p id="menssage"></p>
+            <button id="button-validation" type="submit">Validar <i class="bi bi-check2-circle"></i></button>
         </section>
+
+        <p id="menssage"></p>
+
     </main>
+
     <script src="./SRC/JS/main.js"></script>
 </body>
 
