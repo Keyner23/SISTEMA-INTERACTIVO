@@ -1,25 +1,28 @@
-# INTERACTIVE SYSTEM
+# Age Interactive System
 
-:hammer: ## PROJECT FUNCIONALITY :hammer:
 This system is a basic example of what can be done with JS. It requests the user's name and age, and displays a result based on their age and whether they are of legal age.
 
-:watch: ## PROJECT STATUS :watch:
-Finished
+### Project status
+:white_check_mark: Finished :white_check_mark:
 
-:page_with_curl: ## TABLE OF CONTENTS :page_with_curl:
+## :hammer: Project Features :hammer:
+- `Functionality 1`: Allow writing the user's name and age.
+- `Functionality 2`: Validate the data with the button.
 
--SRC(html, css, js )
--LICENSE
--README 
--index.html
+## Table of contents
 
-:computer: ##TECHNOLOGIES :computer:
-Implement HTML, CSS, and JS
+- Folder SRC for the resources (of the index)
+- License
+- README
+- Index (Pricipal Page)
 
-:man: ##AUTHOR :man:
+## Technologies
+Implement HTML, CSS, and JS for the logic.
+
+## Author
 
 Keyner Andres Barrios Ochoa
 
-:link: ##LINK :link:
+## Link
 
-https://keyner23.github.io/SISTEMA-INTERACTIVO/
+:pushpin: https://keyner23.github.io/SISTEMA-INTERACTIVO/ :pushpin:
