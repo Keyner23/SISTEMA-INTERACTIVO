@@ -18,10 +18,7 @@ buttonValidation.addEventListener("click", function () {
     const nameValue = document.getElementById("name-value").value
     const ageValue = document.getElementById("age-value").value
 
-    if (ageValue.length === 0) {
-        menssage.innerHTML = "DEBES LLENAR TODOS LOS CAMPOS"
-    }
-    else if (nameValue.trim().length === 0) {
+    if (ageValue.length === 0 || nameValue.trim().length === 0) {
         menssage.innerHTML = "DEBES LLENAR TODOS LOS CAMPOS"
     }
     else if (ageValue < 18) {
@@ -30,4 +27,6 @@ buttonValidation.addEventListener("click", function () {
     else if (ageValue >= 18) {
         menssage.innerHTML = `Hola ${nameValue}, eres mayor de edad. ¡Prepárate para grandes oportunidades en el mundo de la programación!`
     }
+    document.getElementById("name-value").value = ""
+    document.getElementById("age-value").value = ""
 })
