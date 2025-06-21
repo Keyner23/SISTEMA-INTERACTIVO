@@ -1,6 +1,6 @@
 
 const buttonValidation = document.getElementById("button-validation")
-const menssage = document.getElementById("menssage")
+let menssage = document.getElementById("menssage")
 
 function block(e) {
     if (['e', 'E', '+', '-', ',', '.'].includes(e.key)) {
@@ -24,7 +24,7 @@ buttonValidation.addEventListener("click", function () {
     else if (ageValue < 18) {
         menssage.innerHTML = `Hola ${nameValue}, eres menor de edad. ¡Sigue aprendiendo y disfrutando del código!`
     }
-    else if (ageValue >= 18) {
+    else{
         menssage.innerHTML = `Hola ${nameValue}, eres mayor de edad. ¡Prepárate para grandes oportunidades en el mundo de la programación!`
     }
     document.getElementById("name-value").value = ""
